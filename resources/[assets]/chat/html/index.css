@@ -1,0 +1,134 @@
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
+
+.color-0 { color: #9e9a9a; }
+.color-1 { color: #ca0707; }
+.color-2 { color: #3eca07; }
+.color-3 { color: #0080ff; }
+.color-4 { color: #e702d4; }
+.color-5 { color: #7c07ca; }
+.color-6 { color: #ff9100; }
+.color-8 { color: #dbcd0a; }
+.color-9 { color: #867f7f; }
+
+* {
+	font-family: Poppins;
+	margin: 0;
+	padding: 0;
+}
+
+.no-grow { flex-grow: 0; }
+
+em { font-style: normal; }
+
+#app {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: white;
+	background-color: transparent;
+}
+
+.chat-window {
+	position: absolute;
+  top: 2.083vw;
+	left: 0.521vw;
+	width: 23.438vw;
+  max-width: 23.438vw;
+  max-height: 23.438vw;
+	background-color: rgba(255, 255, 255, 1.0);
+	-webkit-animation-duration: 3s;
+}
+
+.chat-messages {
+	position: relative;
+	height: 100%;
+	width: 23.438vw;
+	font-size: 1.4vh;
+	margin: 1%;
+	font-weight: 600;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.chat-input {
+	font-size: 1.4vh;
+	position: absolute;
+  top: 15.365vw;
+	left: 0.781vw;
+	width: 23.438vw;
+  max-width: 23.438vw;
+	box-sizing: border-box;
+}
+
+.prefix {
+	font-size: 1.8vh;
+	position: absolute;
+	margin-top: 0.26vw;
+	margin-left: 3%;
+}
+
+textarea {
+  display: block;
+	box-sizing: border-box;
+	overflow: hidden;
+	resize: none;
+	width: 23.438vw;
+	height: fit-content;
+	background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  border: none;
+  border-radius: 0.208vw;
+  padding: 0.26vw 0.26vw 0.26vw 2.083vw;
+	font-size: 1.7vh;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-overflow: ellipsis;
+}
+
+.suggestions {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  box-sizing: border-box;
+	list-style-type: none;
+  width: 23.438vw;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 0.417vw 0.417vw 0.417vw 0.417vw;
+  border-radius: 0.208vw;
+  gap: 0.417vw;
+  margin-top: 0.26vw;
+  font-size: 0.85rem;
+  color: rgb(255, 255, 255);	
+}
+
+textarea:focus,input:focus {
+	outline: none;
+}
+
+.msg {
+	margin-bottom: 0.26vw;
+	transform: translateX(-5.208vw);
+	animation: slideFadeIn 0.35s forwards;
+}
+
+.multiline {
+	margin-left: 4%;
+	text-indent: -1.2rem;
+	white-space: pre-line;
+}
+
+.help, .disabled { color: #b0bbbd; }
+
+.forceHidden {
+	opacity: 0.0 !important;
+	visibility: none !important;
+}
+
+.hidden { display: none; }
+
+@keyframes slideFadeIn {
+	from {
+		transform: translateX(-5.208vw);
+	} to {
+		transform: translateX(0);
+	}
+}

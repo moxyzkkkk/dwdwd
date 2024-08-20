@@ -1,0 +1,21 @@
+[
+  {
+    "name": "moxy_2k",
+    "master": true,
+    "password_hash": "$2a$11$2P5NXQUMeLPhwbytTFb1DehtNr/dqjBu8V9KX68vp.6/l7AO.EEGe",
+    "providers": {
+      "citizenfx": {
+        "id": "moxy_2k",
+        "identifier": "fivem:14391252",
+        "data": {
+          "sub": "db016a47846f32db6b4f54195813fc73",
+          "nameid": "https://forum.cfx.re/internal/user/14391252",
+          "name": "moxy_2k",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/moxy_2k/256/3607329_2.png",
+          "profile": "https://forum.cfx.re/u/moxy_2k"
+        }
+      }
+    },
+    "permissions": []
+  }
+]

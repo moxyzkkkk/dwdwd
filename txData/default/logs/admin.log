@@ -1,0 +1,17 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 8/20/2024, 8:03:36 AM
+================================================================
+
+================================================================
+======== Log Rotated - 8/20/2024, 8:03:36 AM                    
+================================================================
+[08:08:38][moxy_2k] logged in from 127.0.0.1 via citizenfx
+[08:08:48][moxy_2k] executed "refresh"
+[08:08:53][moxy_2k] executed "stop chat"
+[08:09:01][moxy_2k] executed "ensure trappin_chat"
+[08:10:57][moxy_2k] executed "ensure trappin_chat"
+[08:11:25][moxy_2k] executed "ensure trappin_chat"
+[08:11:32][moxy_2k] executed "refresh"
+[08:11:33][moxy_2k] executed "ensure trappin_chat"
+[08:11:40][moxy_2k] executed "ensure trappin_chat"

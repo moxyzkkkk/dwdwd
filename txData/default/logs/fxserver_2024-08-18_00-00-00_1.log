@@ -1,0 +1,1058 @@
+
+================================================================
+======== FXServer Starting - 8/18/2024, 6:31:49 PM              
+================================================================
+[           resources] Scanning resources.
+[38;5;83m[           resources] Found 12 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] Couldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin][97m Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-resources-core] Resource 'ox_lib' can't run:
+[    c-resources-core]   1. onesync: OneSync needs to be enabled
+[ citizen-server-impl] Couldn't start resource ox_lib.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[resources:stream:str] Asset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] [0mCreating script environments for core
+[         script:core] [0mSCRIPT ERROR: ox_lib must be started before this resource.
+[         script:core] > fn (@ox_lib/init.lua:19)
+[           resources] [0mStarted resource core
+[    c-scripting-core] Creating script environments for scripts
+[      script:scripts] SCRIPT ERROR: ox_lib must be started before this resource.
+[      script:scripts] > fn (@ox_lib/init.lua:19)
+[      script:scripts] SCRIPT ERROR: @scripts/utilities/server/callbacks.lua:1: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/utilities/server/callbacks.lua:1)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/adminmenu/server/server.lua:97: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/adminmenu/server/server.lua:97)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/billing/server/server.lua:86: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/billing/server/server.lua:86)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/comserv/server/server.lua:4: No such export Admin in resource scripts
+[      script:scripts] SCRIPT ERROR: @scripts/resources/dealership/server/server.lua:1: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/dealership/server/server.lua:1)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/deathscreen/server/server.lua:20: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/deathscreen/server/server.lua:20)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/discord/server/server.lua:62: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/discord/server/server.lua:62)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/gangs/server/server.lua:2: No such export Admin in resource scripts
+[      script:scripts] SCRIPT ERROR: @scripts/resources/gangs/server/storage.lua:118: attempt to index a nil value (global 'lib')
+[      script:scripts] SCRIPT ERROR: @scripts/resources/garages/server/server.lua:1: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/garages/server/server.lua:1)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/police/server/server.lua:1: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/police/server/server.lua:1)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/richpresence/server/server.lua:1: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/richpresence/server/server.lua:1)
+[      script:scripts] SCRIPT ERROR: @scripts/resources/scoreboard/server/server.lua:31: attempt to index a nil value (global 'lib')
+[      script:scripts] > fn (@scripts/resources/scoreboard/server/server.lua:31)
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[script:illenium-appe] SCRIPT ERROR: ox_lib must be started before this resource.
+[script:illenium-appe] > fn (@ox_lib/init.lua:19)
+[script:illenium-appe] [0mSCRIPT ERROR: @illenium-appearance/server/framework/esx/migrate.lua:132: attempt to index a nil value (global 'lib')
+[script:illenium-appe] > fn (@illenium-appearance/server/framework/esx/migrate.lua:132)
+[script:illenium-appe] SCRIPT ERROR: @illenium-appearance/server/framework/esx/callbacks.lua:16: attempt to index a nil value (global 'lib')
+[script:illenium-appe] SCRIPT ERROR: @illenium-appearance/server/server.lua:44: attempt to index a nil value (global 'lib')
+[script:illenium-appe] > fn (@illenium-appearance/server/server.lua:44)
+[script:illenium-appe] SCRIPT ERROR: @illenium-appearance/server/permissions.lua:4: attempt to index a nil value (global 'lib')
+[script:illenium-appe] > fn (@illenium-appearance/server/permissions.lua:4)
+[           resources] [0mStarted resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[    script:inventory] SCRIPT ERROR: ox_lib must be started before this resource.
+[    script:inventory] > fn (@ox_lib/init.lua:19)
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for ls-customs
+[   script:ls-customs] SCRIPT ERROR: ox_lib must be started before this resource.
+[   script:ls-customs] > fn (@ox_lib/init.lua:19)
+[           resources] [0mStarted resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[         script:core] [INFO] ESX Legacy 1.10.2 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂moxy_2k＂,＂message＂:＂Server restarting (requested by moxy_2k).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 8/18/2024, 6:32:02 PM              
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 12 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] [0mCouldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] [0mStarted resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[resources:stream:str] Asset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] [0mCreating script environments for core
+[           resources] Started resource core
+[    c-scripting-core] [0mCreating script environments for scripts
+[           resources] Started resource scripts
+[           resources] [0mStarted resource chat
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[           resources] [0mStarted resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[           resources] Started resource inventory
+[    c-scripting-core] [0mCreating script environments for ls-customs
+[           resources] Started resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[         script:core] [INFO] ESX Legacy 1.10.2 initialized!
+[      script:scripts] [97m[DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+[       script:ox_lib] [0mAn update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [97mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [97mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> refresh
+[           resources] Scanning resources.
+[           resources] [0mFound 0 new resources, and refreshed 0/12 resources.
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/12 resources.
+> refresh
+[           resources] Scanning resources.
+[           resources] [32mFound 0 new resources, and refreshed 0/12 resources.
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 8/18/2024, 7:07:25 PM              
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 12 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] [0mCouldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[resources:stream:str] Asset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] [0mCreating script environments for core
+[           resources] Started resource core
+[    c-scripting-core] Creating script environments for scripts
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] [0mCreating script environments for inventory
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for ls-customs
+[           resources] Started resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[         script:core] [INFO] ESX Legacy 1.10.2 initialized!
+[      script:scripts] [DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+[       script:ox_lib] An update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [97mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> refresh
+[           resources] [97mScanning resources.
+[           resources] Found 0 new resources, and refreshed 0/12 resources.
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+> refresh
+[           resources] [32mScanning resources.
+[           resources] [0mFound 0 new resources, and refreshed 0/12 resources.
+> ensure moxy_gang
+[           resources] Stopping resource moxy_gang
+[    c-scripting-core] [0mCreating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 8/18/2024, 10:38:08 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 13 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] Couldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[resources:stream:str] Asset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[    c-scripting-core] Creating script environments for scripts
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_l_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_p_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_r_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_t_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^accs_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_k_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_m_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_q_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_s_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_w_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_x_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_000_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_007_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_012_u.ydd uses 24.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_019_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_025_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_005_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_018_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_019_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_020_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_004_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_007_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_023_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_025_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_002_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_003_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_004_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_006_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_007_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_008_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_010_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 23.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_012_u.ydd uses 16.8 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_013_u.ydd uses 168.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_014_u.ydd uses 22.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_015_u.ydd uses 46.5 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_017_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_018_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_019_u.ydd uses 44.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_diff_016_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_000.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_diff_000_a.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource dlcclothing (68 warnings)
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for ls-customs
+[           resources] Started resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[      script:oxmysql] Unable to establish a connection to the database (ECONNREFUSED)!
+[      script:oxmysql] Error -4078: connect ECONNREFUSED 127.0.0.1:3306
+(node:14536) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(Use `FXServer --trace-warnings ...` to show where the warning was created)
+(node:14536) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14536) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:14536) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:14536) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:14536) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:14536) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:14536) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[      script:scripts] [DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[       script:ox_lib] An update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] An update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+> txaEvent "adminsUpdated" "[]"
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂moxy_2k＂,＂message＂:＂Server restarting (requested by moxy_2k).＂}"
+[      script:monitor] [txAdmin][97m Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 8/18/2024, 10:38:53 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 13 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] [0mCouldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] [97mStarted resource monitor
+[ citizen-server-impl] [97mCould not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] [97mStarted resource oxmysql
+[resources:stream:str] [0mAsset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] Creating script environments for core
+[           resources] [0mStarted resource core
+[    c-scripting-core] Creating script environments for scripts
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_l_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_p_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_r_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_t_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^accs_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] [0mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_k_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_m_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_q_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_s_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_w_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_x_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_000_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_007_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_012_u.ydd uses 24.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_019_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_025_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_005_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_018_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_019_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_020_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_004_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_007_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_023_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_025_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_002_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_003_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_004_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_006_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_007_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_008_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_010_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 23.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_012_u.ydd uses 16.8 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_013_u.ydd uses 168.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_014_u.ydd uses 22.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_015_u.ydd uses 46.5 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_017_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_018_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_019_u.ydd uses 44.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_diff_016_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_000.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_diff_000_a.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource dlcclothing (68 warnings)
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[           resources] Started resource inventory
+[    c-scripting-core] [0mCreating script environments for ls-customs
+[           resources] Started resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[      script:oxmysql] [0mUnable to establish a connection to the database (ECONNREFUSED)!
+[      script:oxmysql] Error -4078: connect ECONNREFUSED 127.0.0.1:3306
+(node:11388) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(Use `FXServer --trace-warnings ...` to show where the warning was created)
+(node:11388) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:11388) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:11388) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:11388) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:11388) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[      script:scripts] [DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] [0mAn update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+(node:11388) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:11388) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[       script:ox_lib] An update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+(node:11388) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:11388) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂moxy_2k＂,＂message＂:＂Server restarting (requested by moxy_2k).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 8/18/2024, 10:39:15 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 13 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] Couldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] [97mStarted resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[resources:stream:str] [0mAsset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[    c-scripting-core] Creating script environments for scripts
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;137m[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_l_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_p_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_r_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_t_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^accs_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_k_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_m_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_q_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_s_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_w_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_x_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_000_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_007_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_012_u.ydd uses 24.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_019_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_025_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_005_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_018_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_019_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_020_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_004_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_007_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_023_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_025_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_002_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_003_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_004_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] [93mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_006_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_007_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_008_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_010_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 23.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_012_u.ydd uses 16.8 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_013_u.ydd uses 168.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_014_u.ydd uses 22.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_015_u.ydd uses 46.5 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_017_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_018_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_019_u.ydd uses 44.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_diff_016_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_000.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_diff_000_a.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource dlcclothing (68 warnings)
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] [0mStarted resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[           resources] [0mStarted resource inventory
+[    c-scripting-core] Creating script environments for ls-customs
+[           resources] [0mStarted resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[         script:core] [97m[INFO] ESX Legacy 1.10.2 initialized!
+[      script:scripts] [94m[DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+[       script:ox_lib] An update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+> stop moxy_gang
+[           resources] Stopping resource moxy_gang
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 227 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 243 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 491 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 222 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 321 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 321 milliseconds
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂moxy_2k＂,＂message＂:＂Server restarting (requested by moxy_2k).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 8/18/2024, 10:43:45 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 13 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] Couldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] [0mStarted resource oxmysql
+[resources:stream:str] Asset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] [0mCreating script environments for core
+[           resources] [0mStarted resource core
+[    c-scripting-core] [0mCreating script environments for scripts
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_l_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_p_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_r_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_t_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^accs_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_k_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_m_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_q_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;137m[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_s_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_w_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_x_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_000_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_007_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_012_u.ydd uses 24.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_019_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_025_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_005_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] [0mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] [94mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_018_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_019_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_020_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_004_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_007_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_023_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_025_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] [0mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_002_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_003_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_004_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_006_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] [0mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_007_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_008_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_010_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 23.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_012_u.ydd uses 16.8 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_013_u.ydd uses 168.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_014_u.ydd uses 22.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_015_u.ydd uses 46.5 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_017_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_018_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_019_u.ydd uses 44.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_diff_016_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_000.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_diff_000_a.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource dlcclothing (68 warnings)
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[           resources] [0mStarted resource inventory
+[    c-scripting-core] [0mCreating script environments for ls-customs
+[           resources] [0mStarted resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] [0mStarted resource moxy_gang
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[         script:core] [INFO] ESX Legacy 1.10.2 initialized!
+[      script:scripts] [DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[       script:ox_lib] An update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] An update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+> stop moxy_gang
+[           resources] Stopping resource moxy_gang
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/13 resources.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂moxy_2k＂,＂message＂:＂Server restarting (requested by moxy_2k).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 8/18/2024, 10:49:36 PM             
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 13 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[ citizen-server-impl] [0mCouldn't find resource sessionmanager.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open mylogo.png for reading.
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] [0mStarted resource oxmysql
+[resources:stream:str] Asset stream/Flash LEGO.ytd uses 44.0 MiB of physical memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ydd uses 18.8 MiB of virtual memory.
+[resources:stream:str] Asset stream/IronSpiderman_PS4.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/SupermanTheMovie.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/fallguyslpink.ydd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/fallguyslpink.ytd uses 24.0 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_props_txd.ytd uses 25.5 MiB of physical memory.
+[resources:stream:str] Asset stream/gabz_mrpd_txd.ytd uses 52.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:stream:str] Asset stream/shrek.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource stream (9 warnings)
+[    c-scripting-core] Creating script environments for core
+[           resources] Started resource core
+[    c-scripting-core] Creating script environments for scripts
+[           resources] Started resource scripts
+[           resources] Started resource chat
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_l_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_p_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_r_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_t_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^jbib_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_f_freemode_01_mp_f_dlclothing^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.[0m
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^accs_diff_000_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_k_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_m_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_q_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_s_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_u_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_w_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^decl_diff_000_x_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_000_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] [94mAsset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^feet_diff_002_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_007_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_012_u.ydd uses 24.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_019_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_025_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_005_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_012_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_018_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_019_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_020_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_025_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^jbib_diff_026_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_004_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_007_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_018_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_023_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^lowr_diff_025_a_whi.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_002_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_003_u.ydd uses 28.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_004_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_006_u.ydd uses 48.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_007_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_008_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_010_u.ydd uses 40.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_011_u.ydd uses 23.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_012_u.ydd uses 16.8 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_013_u.ydd uses 168.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_014_u.ydd uses 22.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_015_u.ydd uses 46.5 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_017_u.ydd uses 20.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_018_u.ydd uses 52.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_019_u.ydd uses 44.0 MiB of virtual memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_mp_m_dlclothing^teef_diff_016_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_000.ydd uses 32.0 MiB of physical memory.
+[resources:dlcclothin] Asset dlcclothing/mp_m_freemode_01_p_mp_m_dlclothing^p_eyes_diff_000_a.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource dlcclothing (68 warnings)
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for inventory
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for ls-customs
+[           resources] [0mStarted resource ls-customs
+[    c-scripting-core] Creating script environments for moxy_gang
+[           resources] Started resource moxy_gang
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[         script:core] [0m[INFO] ESX Legacy 1.10.2 initialized!
+[      script:scripts] [DISCORD] [ERROR] : Please Check Your Config
+[      script:scripts]  @scripts/resources/discord/sconfig.lua
+[       script:ox_lib] An update is available for ox_lib (current version: 3.9.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.25.0
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://luxyreno-pyrxrm.users.cfx.re/
+[       script:ox_lib] [0mAn update is available for illenium-appearance (current version: 5.4.0)
+[       script:ox_lib] https://github.com/iLLeniumStudios/illenium-appearance/releases/tag/v5.6.1
+> stop moxy_gang
+[           resources] Stopping resource moxy_gang
+[ citizen-server-main] [0m-> Quitting: SIGHUP received

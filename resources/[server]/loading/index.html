@@ -1,0 +1,55 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div>
+        <div id="particles-background" class="vertical-centered-box"></div>
+        <div id="particles-foreground" class="vertical-centered-box"></div>
+
+        <div class="vertical-centered-box">
+            <div class="content">
+                <div class="loader-circle"></div>
+                <div class="loader-line-mask">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+        <h1>
+        </h1>
+        <a href="" class="typewrite" data-period="400" data-type='[]'>
+            <span class="wrap"></span>
+        </a>
+
+    </div>
+
+    <script>
+        var aud = new Audio();
+        aud.src = 'music.mp3'; 
+        aud.play();
+        aud.volume = 0.20;
+
+        play = true;
+
+        function onKeyDown(event) {
+            switch (event.keyCode) {
+                case 32:                     
+                    if (play) { 
+                        aud.pause(); play = false;
+                    } else {
+                        aud.play(); play = true;
+                    }
+                    break;
+            }
+            return false;
+        }
+        window.addEventListener("keydown", onKeyDown, false);
+    </script>
+
+</body>
+
+<script src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">

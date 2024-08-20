@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Fett';
+    src: url('./fett.otf');
+}
+
+.ui {
+    position: absolute; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inventory {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.083vw;
+    width: 53.125vw;
+    height: 45.573vw;
+    border-radius: 0.156vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    gap: 0.521vw;
+    width: 23.177vw;
+    height: 2.604vw;                                                                                
+    flex-shrink: 0;
+    bottom: 0.521vw;
+}
+
+.avatar {
+    width: 1.771vw;
+    height: 1.771vw;
+    flex-shrink: 0;
+    border-radius: 1.771vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.type {
+    text-align: center;
+    color: #FFF;
+    font-family: Fett;
+    font-size: 1.458vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.type2 {
+    text-align: center;
+    color: #FFF;
+    font-family: Fett;
+    font-size: 1.458vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    position: relative; 
+    gap: 3.125vw;
+    width: 23.177vw;
+    height: 2.604vw;
+    flex-shrink: 0;
+    bottom: -0.521vw;
+    border-radius: 0.625vw;
+    border-bottom: 0.036vw solid rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0.052vw 0.052vw 0.260vw 0vw rgba(0, 0, 0, 0.25);
+}
+
+#amount {
+    width: 3.385vw;
+    height: 1.927vw;
+    flex-shrink: 0;
+    border: 0.036vw solid transparent;
+    margin-left: -1.042vw;
+    outline: none;
+    border-radius: 0.521vw;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+#use { 
+    padding: 0.365vw;
+    margin-left: 0.781vw; }
+#give { 
+    padding: 0.365vw;
+    margin-left: 0.365vw; }
+#drop { 
+    padding: 0.365vw;
+    margin-left: -0.260vw; }
+
+.action {   
+    overflow: hidden;
+    width: fit-content;
+    height: 1.302vw;
+    color: #FFF;
+    font-family: Rajdhani;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.other_info {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    position: relative; 
+    gap: 0.573vw;
+    width: 23.177vw;
+    height: 2.604vw;
+    flex-shrink: 0;
+    bottom: -0.521vw;
+    border-radius: 0.625vw;
+    border-bottom: 0.036vw solid rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0.052vw 0.052vw 0.260vw 0vw rgba(0, 0, 0, 0.25);
+}
+
+.bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 17.500vw;
+    height: 0.365vw;
+    flex-shrink: 0;
+    border-radius: 0.521vw;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.fill {
+    position: absolute;
+    transition: all .5s;
+    width: 0%;
+    min-width: 0%;
+    max-width: 100%;
+    height: 100%;
+    transition: .5s;
+    border-radius: 0.521vw;
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.inv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.260vw;
+    position: relative;
+    width: 25.521vw;
+    height: 45.573vw;
+    flex-shrink: 0;
+    border-radius: 0.781vw;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.63) -49.8%, rgba(0, 0, 0, 0.63) 99.8%);
+    box-shadow: 0.052vw 0.052vw 0.260vw 0.052vw rgba(0, 0, 0, 0.25);
+}
+
+.otherInv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.260vw;
+    position: relative;
+    width: 25.521vw;
+    height: 45.573vw;
+    flex-shrink: 0;
+    border-radius: 0.781vw;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.63) -49.8%, rgba(0, 0, 0, 0.63) 99.8%);
+    box-shadow: 0.052vw 0.052vw 0.260vw 0.052vw rgba(0, 0, 0, 0.25);
+}
+
+.box {
+    position: relative;
+    width: 23.229vw;
+    height: 35.677vw;
+    margin: 0 auto;
+    overflow: auto;
+    bottom: -1.042vw;
+    border-radius: 0.521vw;
+}
+
+.box div {
+    float: left;
+    margin-right: 0.417vw; 
+    margin-bottom: 0.417vw; 
+}
+
+.box div:nth-child(4n) {
+    margin-right: 0;
+    clear: right;
+}
+
+.box::-webkit-scrollbar-track {
+    background: none;
+    border: none;
+}
+
+.box::-webkit-scrollbar {
+    width: 0.001vw;
+}
+
+.ui-draggable-dragging .item-name,
+.ui-draggable-dragging .item-count {
+    display: none;
+}
+
+.item-count {
+    position: absolute;
+    top: 0.469vw;
+    width: 5.469vw;
+    height: 1.042vw;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 0.729vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.item, .itemOther {    
+    margin-top: 1.354vw;
+    width: 5.469vw;
+    height: 4.792vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.item-name {
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    width: 5.469vw;
+    font-size: 0.625vw;
+    padding: 0.260vw 0vw 0.260vw 0vw;
+    border-radius: 0vw 0vw 0.156vw 0.156vw;
+    color: white;
+}
+
+.slot {
+    float: left;
+    width: 5.469vw;
+    height: 7.292vw;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 0.521vw;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0.052vw 0.052vw 0.260vw 0vw rgba(0, 0, 0, 0.25);
+}
+
+.slot:hover {
+    box-shadow: inset -0.052vw 0 0 rgba(255, 0, 0, 0.60), inset 0 -0.052vw 0 rgba(255, 0, 0, 0.60), inset 0.052vw 0 0 rgba(255, 0, 0, 0.60), inset 0 0.052vw 0 rgba(255, 0, 0, 0.60);
+    background: rgba(255, 0, 0, 0.25);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

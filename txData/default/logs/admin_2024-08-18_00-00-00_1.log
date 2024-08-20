@@ -1,0 +1,63 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 8/18/2024, 6:31:15 PM
+================================================================
+[18:31:38][moxy_2k] created admins file
+[18:31:49][moxy_2k] Changing global/fxserver settings via setup stepper.
+[18:31:53][moxy_2k] Changing fxRunner settings.
+[18:31:56][moxy_2k] executed "RESTART SERVER"
+[18:39:11][moxy_2k] executed "ensure moxy_gang"
+[18:42:31][moxy_2k] executed "ensure moxy_gang"
+[18:43:01][moxy_2k] executed "refresh"
+[18:43:02][moxy_2k] executed "ensure moxy_gang"
+[18:43:07][moxy_2k] executed "ensure moxy_gang"
+[18:44:18][moxy_2k] executed "ensure moxy_gang"
+[18:45:20][moxy_2k] executed "ensure moxy_gang"
+[18:47:33][moxy_2k] executed "ensure moxy_gang"
+[18:47:55][moxy_2k] executed "ensure moxy_gang"
+[18:52:56][moxy_2k] executed "ensure moxy_gang"
+[18:53:58][moxy_2k] executed "ensure moxy_gang"
+[18:54:02][moxy_2k] executed "refresh"
+[18:54:03][moxy_2k] executed "refresh"
+[18:54:04][moxy_2k] executed "ensure moxy_gang"
+[18:54:47][moxy_2k] executed "ensure moxy_gang"
+[18:55:23][moxy_2k] executed "ensure moxy_gang"
+[18:55:59][moxy_2k] executed "ensure moxy_gang"
+[18:56:04][moxy_2k] executed "ensure moxy_gang"
+[18:57:09][moxy_2k] executed "ensure moxy_gang"
+[18:57:50][moxy_2k] executed "ensure moxy_gang"
+[18:58:02][moxy_2k] executed "ensure moxy_gang"
+[18:58:40][moxy_2k] executed "ensure moxy_gang"
+[18:58:48][moxy_2k] executed "ensure moxy_gang"
+[18:59:01][moxy_2k] executed "ensure moxy_gang"
+[18:59:50][moxy_2k] executed "ensure moxy_gang"
+[19:00:19][moxy_2k] executed "ensure moxy_gang"
+[19:01:27][moxy_2k] executed "ensure moxy_gang"
+[19:01:57][moxy_2k] executed "ensure moxy_gang"
+[19:02:02][moxy_2k] executed "ensure moxy_gang"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 8/18/2024, 7:07:15 PM
+================================================================
+[19:07:23][moxy_2k] logged in from 127.0.0.1 via citizenfx
+[19:08:31][moxy_2k] executed "ensure moxy_gang"
+[19:08:32][moxy_2k] executed "refresh"
+[19:08:34][moxy_2k] executed "ensure moxy_gang"
+[19:12:28][moxy_2k] executed "ensure moxy_gang"
+[19:12:44][moxy_2k] executed "ensure moxy_gang"
+[19:13:31][moxy_2k] executed "ensure moxy_gang"
+[19:15:54][moxy_2k] executed "refresh"
+[19:15:55][moxy_2k] executed "ensure moxy_gang"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 8/18/2024, 10:37:58 PM
+================================================================
+[22:38:35][moxy_2k] logged in from 127.0.0.1 via citizenfx
+[22:38:47][moxy_2k] executed "RESTART SERVER"
+[22:39:09][moxy_2k] executed "RESTART SERVER"
+[22:39:47][moxy_2k] executed "stop moxy_gang"
+[22:43:39][moxy_2k] executed "RESTART SERVER"
+[22:44:39][moxy_2k] executed "stop moxy_gang"
+[22:46:26][moxy_2k] executed "refresh"
+[22:49:30][moxy_2k] executed "RESTART SERVER"
+[22:50:42][moxy_2k] executed "stop moxy_gang"
